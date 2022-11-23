@@ -1,0 +1,20 @@
+$size-xll:1291px;
+$size-xl: 1200px;
+$size-lg: 992px;
+$size-md: 768px;
+$size-sm: 576px;
+
+@media (max-width: $size-xl){
+	.our-blog{
+		.our-blog__content-block{
+			max-width: 405px;
+		}
+		.our-blog__content-block-link{
+			margin-bottom: 10%;
+
+		}
+		.mar-b-last{
+			margin-bottom: 0px;
+		}
+	}
+}

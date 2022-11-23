@@ -1,0 +1,224 @@
+@media (max-width: 1200px) {
+  header .header__logo {
+    text-align: center;
+  }
+  .building .building__content-buttom, .building .building__content-link {
+    display: block;
+  }
+  .building .building__content-title, .building .bulding__content-text, .building .building__content-buttom, .building .building__content-link {
+    text-align: center;
+  }
+  .building .building__content-link {
+    margin-top: 48px;
+  }
+  .building .building__content-image {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    margin-top: 50px;
+  }
+  .work .work__content-block {
+    text-align: center;
+  }
+  .work .work__content-block p {
+    max-width: none;
+  }
+  .work .work-types {
+    margin-top: 70px;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .work .work-types .work-types__strategy, .work .work-types .work-types__design, .work .work-types .work-types__wireframing, .work .work-types .work-types__development {
+    padding-right: 15px;
+  }
+  .view .workhub {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .view .unisaas {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .view .view__unisaas-block {
+    margin-top: 38px;
+  }
+  .view .view__unisaas-block .view__unisas-block-text {
+    top: 22%;
+    left: 14%;
+  }
+  .features .features__blocks .block-mob {
+    max-width: 405px;
+    margin-bottom: 24px;
+  }
+  .aboutAs .block-location, .faq .block-location {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .aboutAs .aboutAs__content-left, .aboutAs .aboutAs__content-right, .faq .aboutAs__content-left, .faq .aboutAs__content-right {
+    max-width: 70%;
+  }
+  .faq .faq__content-left {
+    margin-bottom: 10%;
+  }
+  .faq .faq__content-right .faq__first p {
+    padding-right: 15%;
+  }
+  .inquiry .padd-r {
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+  }
+  .inquiry .padd-l {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+  }
+  .inquiry__content-right {
+    max-width: 656px;
+  }
+  .ourBlog .ourBlog__content h2 {
+    text-align: center;
+  }
+  .ourBlog .ourBlog__content-first-block, .ourBlog .ourBlog__content-second-block, .ourBlog .ourBlog__content-third-block {
+    max-width: 405px;
+  }
+  .ourBlog .ourBlog__content-first-block, .ourBlog .ourBlog__content-second-block {
+    margin-bottom: 10%;
+  }
+}
+@media (max-width: 992px) {
+  .work .work-types {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .view .view__workhub-top-text h4 {
+    font-size: 21px;
+    line-height: 36px;
+  }
+  .view .view__workhub-top-text p {
+    font-size: 24px;
+    font-size: 13px;
+    margin-bottom: 30px;
+  }
+  .view .view__workhub-top-text .view__workhub-top-text-link a {
+    font-size: 13px;
+  }
+  footer .footer__content-top-right {
+    margin-bottom: 28px;
+  }
+  footer .footer__bottom .footer__bottom-rights {
+    margin-bottom: 32px;
+  }
+  footer .footer__bottom-content .footer__menu-position {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: start !important;
+  }
+  footer .footer__bottom-content nav ul {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .work .type-block {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .work .work-types {
+    display: inline-block !important;
+  }
+  .work .work-types .work-types__strategy, .work .work-types .work-types__design, .work .work-types .work-types__wireframing, .work .work-types .work-types__development {
+    padding-right: 0px;
+  }
+  .work .work-types .work-types__design {
+    margin-bottom: 48px;
+  }
+  .view .view__header {
+    text-align: center;
+  }
+  .view .view__header .view__link {
+    display: block !important;
+  }
+  .view .view__workhub-top-text {
+    top: 35%;
+  }
+  .view .view__workhub-top-text h4 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .view .view__workhub-top-text p {
+    font-size: 24px;
+    font-size: 13px;
+    margin-bottom: 20px;
+    line-height: 20px;
+  }
+  .view .view__workhub-top-text .view__workhub-top-text-link a {
+    font-size: 13px;
+  }
+  .aboutAs .clients-icon {
+    margin-top: 25px;
+  }
+}
+@media (max-width: 576px) {
+  header .header__menu ul li {
+    display: block !important;
+    margin-right: 0px;
+    text-align: center;
+  }
+  .work .type-block {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .view .view__workhub-top-text {
+    top: 10%;
+  }
+  .view .view__workhub-top-text h4 {
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .view .view__workhub-top-text p {
+    font-size: 8px;
+    margin-bottom: 4px;
+    line-height: 16px;
+  }
+  .view .view__workhub-top-text .view__workhub-top-text-link a {
+    font-size: 8px;
+    line-height: 20px;
+    margin-right: 10px;
+  }
+  .view .view__unisas-block-text {
+    top: 18% !important;
+  }
+  .view .view__unisas-block-text h4 {
+    font-size: 20px !important;
+    line-height: 30px !important;
+    margin-bottom: 10px;
+  }
+  .view .view__unisas-block-text .view__unisaas-link a {
+    font-size: 12px !important;
+    margin-right: 16px;
+  }
+  footer .footer__content-top-right {
+    margin-bottom: 28px;
+  }
+  footer .footer__bottom .footer__bottom-rights {
+    margin-bottom: 32px;
+  }
+}

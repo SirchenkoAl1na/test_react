@@ -1,0 +1,73 @@
+$tint-blue:#1C1E53;
+$royal-blue:#2405F2;
+$dark-blue:#282938;
+$dark: #1B1C2B;
+$grey:#F4F6FC;
+$yellow:#FCD980;
+$button_light--hover:#FDE4A6;
+$button_grey--hover:#535460;
+$font:'Poppins', sans-serif;
+$text-color-menu: #BBBBCB;
+$white: #FFFFFF;
+
+%button-text{
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 32px;
+	font-family: $font;
+}
+%label-second{
+	@extend %body-second;
+	text-decoration: none;
+}
+%label-first{
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 32px;
+	font-family: $font;
+	text-decoration: none;
+}
+%body-first{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	font-family: $font;
+
+}
+%body-second{
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 28px;
+	font-family: $font;
+	
+}
+%heading-first{
+	font-weight: 600;
+	font-size: 54px;
+	line-height: 74px;
+	font-family: $font;
+}
+%heading-second{
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 64px;
+	font-family: $font;
+}
+%heading-third{
+	font-weight: 600;
+	font-size: 38px;
+	line-height: 56px;
+	font-family: $font;
+}
+%heading-fifth{
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 48px;
+	font-family: $font;
+}
+%heading-sixth{
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	font-family: $font;
+}
