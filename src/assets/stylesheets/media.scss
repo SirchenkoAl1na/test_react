@@ -1,0 +1,280 @@
+$size-xll:1291px;
+$size-xl: 1200px;
+$size-lg: 992px;
+$size-md: 768px;
+$size-sm: 576px;
+
+// Header
+@media (max-width: $size-xl){
+	header{
+		.header__logo{
+			text-align: center;
+		}
+	}
+	.building{
+		.building__content-buttom, .building__content-link{
+			display: block;
+		}
+		.building__content-title, .bulding__content-text, .building__content-buttom, .building__content-link{
+			text-align: center;
+		}
+		.building__content-link{
+			margin-top: 48px;
+		}
+		.building__content-image{
+			justify-content: center!important;
+			margin-top: 50px;
+		}
+	}
+	.work{
+		.work__content-block{
+			text-align: center;
+			p{
+				max-width: none;
+			}
+		}
+		.work-types{
+			margin-top: 70px;
+			display: flex!important;
+			justify-content: center;
+			.work-types__strategy, .work-types__design, .work-types__wireframing, .work-types__development{
+				padding-right: 15px;
+			}
+		}
+	}
+	.view{
+		.workhub{
+			justify-content: center!important;
+		}
+		.unisaas{
+			justify-content: center!important; 
+		}
+		.view__unisaas-block{
+			margin-top: 38px;
+			.view__unisas-block-text{
+				top: 22%;
+				left: 14%;
+			}
+		}
+	}
+	.features{
+		.features__blocks{
+			.block-mob{
+				max-width: 405px;
+				margin-bottom: 24px;
+			}
+		}
+	}
+	.aboutAs, .faq{
+		.block-location{
+			display: flex;
+			justify-content: center;
+		}
+		.aboutAs__content-left, .aboutAs__content-right{
+			max-width: 70%;
+		}
+	}
+	.faq{
+		.faq__content-left{
+			margin-bottom: 10%;
+		}
+		.faq__content-right{
+			.faq__first p{
+				padding-right: 15%;
+
+			}
+
+		}
+	}
+	.inquiry{
+		.padd-r{
+			padding-right: calc(var(--bs-gutter-x) * .5);
+		}
+		.padd-l{
+			padding-left: calc(var(--bs-gutter-x) * .5);
+		}
+	}
+	.inquiry__content-right{
+		max-width: 656px;
+	}
+	.ourBlog{
+		.ourBlog__content{
+			h2{
+				text-align: center;
+			}
+		}
+		.ourBlog__content-first-block, .ourBlog__content-second-block, .ourBlog__content-third-block{
+			max-width: 405px;
+		}
+		.ourBlog__content-first-block, .ourBlog__content-second-block{
+			margin-bottom: 10%;
+		}
+	}
+}
+@media (max-width: $size-lg){
+	.work{
+		.work-types{
+			display: flex!important;
+			justify-content: center;
+		}
+
+	}
+	.view{
+		.view__workhub-top-text{
+			h4{
+				
+				font-size: 21px;
+				line-height: 36px;
+				
+			}
+			p{
+				font-size: 24px;
+				font-size: 13px;
+				margin-bottom: 30px;
+			}
+			.view__workhub-top-text-link{
+				a{
+					font-size: 13px;
+				}
+			}
+		}
+	}
+	footer{
+		.footer__content-top-right{
+			margin-bottom: 28px;
+		}
+		.footer__bottom{
+			.footer__bottom-rights{
+				margin-bottom: 32px;
+				
+			}
+		}
+		.footer__bottom-content{
+			.footer__menu-position{
+				justify-content: start!important;
+			}
+			nav ul{
+				padding-left: 0px;
+			}
+		}
+	}
+
+}
+@media (max-width: $size-md){
+	.work{
+		.type-block{
+			display: flex!important;
+			justify-content: center;
+		}
+		.work-types{
+			display: inline-block!important;
+			.work-types__strategy, .work-types__design, .work-types__wireframing, .work-types__development{
+				padding-right: 0px;
+			}
+			.work-types__design{
+				margin-bottom: 48px;
+			}
+		}
+	}
+	.view{
+		.view__header{
+			text-align: center;
+			.view__link{
+				display: block!important;
+			}
+		}
+		.view__workhub-top-text{
+			top: 35%;
+			h4{
+				
+				font-size: 18px;
+				line-height: 30px;
+				
+			}
+			p{
+				font-size: 24px;
+				font-size: 13px;
+				margin-bottom: 20px;
+				line-height: 20px;
+			}
+			.view__workhub-top-text-link{
+				a{
+					font-size: 13px;
+				}
+			}
+		}
+	}
+	.aboutAs{
+		.clients-icon{
+			margin-top: 25px;
+		}
+	}
+}
+@media (max-width: $size-sm){
+	header{
+		.header__menu ul li{
+			display: block!important;
+			margin-right: 0px;
+			text-align: center;
+		}
+	}
+	.work{
+		.type-block{
+			display: flex!important;
+			justify-content: center;
+		}
+	}
+	.view{
+		.view__workhub-top-text{
+			top: 10%;
+			h4{
+				font-size: 10px;
+				line-height: 20px;
+			}
+			p{
+				
+				font-size: 8px;
+				margin-bottom: 4px;
+				line-height: 16px;
+			}
+			.view__workhub-top-text-link{
+				a{
+					font-size: 8px;
+					line-height: 20px;
+					margin-right: 10px;
+				}
+			}
+		}
+		.view__unisas-block-text{
+			top: 18%!important;
+			h4{
+				
+				font-size: 20px!important;
+				line-height: 30px!important;
+				
+				margin-bottom: 10px;
+				
+			}
+			.view__unisaas-link{
+					
+				a{
+					font-size: 12px!important;
+					margin-right: 16px;
+							
+				}
+						
+			}
+		}
+		
+	}
+	footer{
+		.footer__content-top-right{
+			margin-bottom: 28px;
+		}
+		.footer__bottom{
+			.footer__bottom-rights{
+				margin-bottom: 32px;
+			}
+		}
+	}
+}
